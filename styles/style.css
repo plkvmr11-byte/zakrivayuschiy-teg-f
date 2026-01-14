@@ -419,8 +419,6 @@ svg {
 }
 
 .save-button {
-  display: flex;
-  align-items: center;
   justify-content: center;
   gap: var(--gap-xs);
   inline-size: 335px;
@@ -428,16 +426,11 @@ svg {
   line-height: 90%;
 }
 
-.save-button svg {
-  flex-shrink: 0;
-  width: 21px;
-  height: 21px;
-}
-
 .save-icon {
   display: inline-block;
   width: 21px;
   height: 21px;
+  flex-shrink: 0;
 }
 
 .save-icon .save-icon-dialog use {
@@ -477,12 +470,6 @@ dialog::backdrop {
   block-size: 63px;
 }
 
-.save-icon-dialog-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
-
 .text-dialog {
   font-weight: 400;
   font-size: var(--font0-size-dialog-text);
@@ -500,6 +487,7 @@ dialog::backdrop {
 .save-icon-dialog-container {
   width: 39px;
   height: 39px;
+  display: flex;
 }
 
 @media (width <= 375px) {

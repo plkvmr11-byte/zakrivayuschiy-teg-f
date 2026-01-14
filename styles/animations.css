@@ -13,6 +13,7 @@
 @keyframes rotateSun {
   from {
     transform: rotate(0deg); 
+  
   }
 
   to {
@@ -68,7 +69,7 @@
   75% {
     filter: blur(5px) grayscale(40%) saturate(160%) hue-rotate(0deg) brightness(115%) contrast(90%);
   }
-  
+
   100% {
     filter: blur(4px) grayscale(70%) saturate(130%) hue-rotate(-10deg) brightness(100%) contrast(100%);
   }
