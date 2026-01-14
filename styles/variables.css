@@ -33,13 +33,13 @@
   --font-size-label: 14px;
   --font0-size-dialog-text: 14px;
   /* Лейбл */
-  --label-border-color: rgba(255, 255, 255, 0.7); /* Цвет обводки текста */
+  --label-border-color: rgba(255, 255, 255, 0.7);
   --label-color-text: rgba(0, 0, 0, 0.7);
   /* Цвета для анимации */
-  --contur-heart-color: rgba(0, 0, 0, 1); /* Цвет контура сердечка */
+  --contur-heart-color: rgba(0, 0, 0, 1);
   --animation-fill-color: rgba(255, 0, 0, 1); 
     /* Цвет заполнения анимации сердечка */
-  --sparks-color: rgba(255, 0, 0, 1); /* Цвет искр анимации сердечка */
+  --sparks-color: rgba(255, 0, 0, 1);
   --hover-animation-color: rgba(0, 0, 0, 1);
   /* отступы gap */
   --gap-xs: 8px;
