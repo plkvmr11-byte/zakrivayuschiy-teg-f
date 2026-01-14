@@ -124,6 +124,10 @@ h2 {
   object-position: center;
 }
 
+.motivation {
+  filter: invert(0.1);
+}
+
 .cat {
   filter: var(--filter-cat);
 }
