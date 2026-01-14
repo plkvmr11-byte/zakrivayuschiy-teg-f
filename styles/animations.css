@@ -9,3 +9,54 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+
+@keyframes rotateSun {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes heart {
+  0% {
+    transform: scale(1);      /* Исходный размер */
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.25);  /* Увеличение на 25 % */
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);     /* Возврат к исходному размеру */
+    opacity: 1;
+  }
+}
+
+@keyframes sparks {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+
+}
+
+@keyframes softPinkFilter {
+  0% {
+    filter: blur(4px) grayscale(70%) saturate(130%) hue-rotate(-10deg) brightness(100%) contrast(100%);
+  }
+  25% {
+    filter: blur(6px) grayscale(50%) saturate(150%) hue-rotate(5deg) brightness(110%) contrast(95%);
+  }
+  50% {
+    filter: blur(3px) grayscale(60%) saturate(140%) hue-rotate(15deg) brightness(105%) contrast(105%);
+  }
+  75% {
+    filter: blur(5px) grayscale(40%) saturate(160%) hue-rotate(0deg) brightness(115%) contrast(90%);
+  }
+  100% {
+    filter: blur(4px) grayscale(70%) saturate(130%) hue-rotate(-10deg) brightness(100%) contrast(100%);
+  }
+}

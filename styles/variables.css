@@ -1,1 +1,62 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  /* Переменная с комбинированным градиентом */
+  --complex-gradient: repeating-linear-gradient(to right,#d3d3d3 0 2px,transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  /*clamp*/
+  --font-size-logo: clamp(3.063rem, 1.909rem + 4.923vw, 4.063rem);
+  --font-size-logo-subtitle: clamp(0.875rem, 0.226rem + 2.769vw, 1.438rem);
+  --padding-clamp: clamp(7.625rem, 7.048rem + 2.462vw, 8.125rem);
+  --width-clamp: clamp(375px, 80%, 700px);
+  /* Размеры*/
+  --width: 700px;
+  --header-weight: regular;
+  --button-weight: 400;
+  --wdth: 410;
+  --wght: 715;
+  /* Цвета */
+  --border-color: rgba(0, 0, 0, 1);
+  --card-bg-color: rgba(255, 255, 255, 1);
+  --header-bg-color: rgba(255, 255, 255, 1);
+  --color-main: rgba(0, 0, 0, 1);
+  --accent-color: rgba(0, 0, 0, 1);
+  --animation-button: rgba(255, 255, 255, 1);
+  --rabbit-bg-filter: rgb(212, 52, 146);
+  --love-bg-filter: rgba(209, 130, 192, 0.158);
+  --sun-bg-fiter: rgb(221, 164, 183);
+  --gif-bg-filter: rgb(209, 135, 178);
+  /* Шрифты */
+  --ps2p-font-family: "Press Start 2P", sans-serif;
+  --iv-font-family: "Inter-Variable", sans-serif;
+  /* Размер текста */
+  --font-size-text: 18px;
+  --font-size-heading: 18px;
+  --font-size-button: 14px;
+  --font-size-label: 14px;
+  --font0-size-dialog-text: 14px;
+  /* Лейбл */
+  --label-border-color: rgba(255, 255, 255, 0.7); /* Цвет обводки текста */
+  --label-color-text: rgba(0, 0, 0, 0.7);
+  /* Цвета для анимации */
+  --contur-heart-color: rgba(0, 0, 0, 1); /* Цвет контура сердечка */
+  --animation-fill-color: rgba(255, 0, 0, 1); 
+    /* Цвет заполнения анимации сердечка */
+  --sparks-color: rgba(255, 0, 0, 1); /* Цвет искр анимации сердечка */
+  --hover-animation-color: rgba(0, 0, 0, 1);
+  /* отступы gap */
+  --gap-xs: 8px;
+  --gap-s: 10px;
+  --gap-m: 20px;
+  --gap-l: 25px;
+  --gap-xl: 30px;
+  --gap--xxl: 50px;
+  /*Фильтры*/
+  --filter-cat: saturate(150%) brightness(115%) hue-rotate(310deg);
+  --filter-rabbit: blur(4px) grayscale(70%) saturate(130%) hue-rotate(-10deg);
+  --filter-flower: opacity(0.7);
+  --filter-love: drop-shadow(5px 30px 1px rgba(0, 0, 0, 0.8));
+  --filter-sun: saturate(158%);
+  --filter-cat-gif: contrast(90%);
+  --filter-family: contrast(120%) brightness(90%);
+}
