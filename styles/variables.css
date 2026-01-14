@@ -49,8 +49,8 @@
   --gap-xl: 30px;
   --gap--xxl: 50px;
   /*Фильтры*/
-  --filter-cat: saturate(150%) brightness(115%) hue-rotate(310deg);
-  --filter-rabbit: blur(4px) grayscale(70%);
+  --filter-cat: hue-rotate(90deg);
+  --filter-rabbit: blur(4px);
   --filter-flower: opacity(0.7);
   --filter-love: drop-shadow(5px 30px 1px rgba(0, 0, 0, 0.8));
   --filter-sun: saturate(158%);

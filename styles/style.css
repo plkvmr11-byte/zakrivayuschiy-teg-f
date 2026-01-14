@@ -192,8 +192,18 @@ h2 {
 }
 
 .cat-gif {
-  background-color: rgb(209, 135, 178);
+  z-index: 1;
+  position: relative;
+}
+
+.cat-gif-bg {
   filter: var(--filter-cat-gif);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
 }
 
 .family {
