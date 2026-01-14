@@ -315,20 +315,6 @@ h2 {
   transform: scaleX(1);
 }
 
-.save-button {
-  display: flex;
-  align-items: center;
-  gap: var(--gap-s);
-}
-
-.save-button svg {
-  flex-shrink: 0;
-}
-
-svg {
-  color: black;
-}
-
 /* Стили для анимации сердечка */
 
 .contour {
@@ -416,13 +402,20 @@ svg {
 .save {
   display: flex;
   align-self: center;
-  justify-self: center;
-  gap: var(--gap-xs);
-  line-height: 90%;
 }
 
 .save-button {
-  padding: 15px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+  inline-size: 335px;
+  block-size: 55px;
+  line-height: 90%;
+}
+
+.save-button svg {
+  flex-shrink: 0;
 }
 
 .save-icon {
