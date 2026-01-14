@@ -49,11 +49,11 @@
   --gap-xl: 30px;
   --gap--xxl: 50px;
   /*Фильтры*/
-  --filter-cat: hue-rotate(90deg);
+  --filter-cat: hue-rotate(-30deg) brightness(120%) saturate(150%);
   --filter-rabbit: blur(4px);
   --filter-flower: opacity(0.7);
   --filter-love: drop-shadow(5px 30px 1px rgba(0, 0, 0, 0.8));
   --filter-sun: saturate(158%);
-  --filter-cat-gif: contrast(90%);
+  --filter-cat-gif: sepia(0.6);
   --filter-family: brightness(90%);
 }

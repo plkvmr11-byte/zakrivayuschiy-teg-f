@@ -125,7 +125,6 @@ h2 {
 }
 
 .cat {
-  object-position: 70% center;
   filter: var(--filter-cat);
 }
 
