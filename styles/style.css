@@ -102,7 +102,6 @@ h2 {
   mix-blend-mode: hard-light;
   vertical-align: middle;
   text-transform: uppercase;
-  font-family: var(--ps2p-font-family);
 }
 
 @supports (text-stroke: 1px var(--label-border-color)) {
@@ -189,8 +188,6 @@ h2 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
   z-index: 0;
 }
 
