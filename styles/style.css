@@ -416,14 +416,13 @@ svg {
 .save {
   display: flex;
   align-self: center;
+  justify-self: center;
+  gap: var(--gap-xs);
+  line-height: 90%;
 }
 
 .save-button {
-  justify-content: center;
-  gap: var(--gap-xs);
-  inline-size: 335px;
-  block-size: 55px;
-  line-height: 90%;
+  padding: 15px 18px;
 }
 
 .save-icon {
