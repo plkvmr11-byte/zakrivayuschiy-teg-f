@@ -140,7 +140,6 @@ h2 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--rabbit-bg-filter);
   z-index: 0;
   filter: var(--filter-rabbit);
   animation: softPinkFilter 6s ease-in-out infinite;
@@ -163,15 +162,33 @@ h2 {
   background-color: var(--love-bg-filter);
 }
 
+.background-love {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  filter: var(--filter-rabbit);
+  animation: softPinkFilter 6s ease-in-out infinite;
+}
+
 .sun {
   width: 100%;
   height: 100%;
   filter: var(--filter-sun);
   animation: rotateSun 15s linear infinite;
+  z-index: 1;
 }
 
-.sun-bg {
-  background-color: var(--sun-bg-fiter);
+.background-sun {
+  filter: var(--filter-sun);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
 }
 
 .cat-gif {
