@@ -11,11 +11,9 @@
   font-family: "Inter-Variable";
   font-display: swap;
   src: local("Inter-Variable"),
-    url("../fonts/Inter-Variable.woff2") format("woff2"),
-    url("../fonts/Inter-Variable.woff") format("woff"),
-    url('./fonts/Inter-Variable.woff') format('woff2 supports variations'),
-   /*автотесты так просят*/
-
-     url('./fonts/Inter-Variable.woff') format('woff2-variations');  
-  font-weight: 400 410 715 785;
+      url("../fonts/Inter-Variable.woff2") format("woff2"),
+        url("../fonts/Inter-Variable.woff") format("woff"),
+          url('./fonts/Inter-Variable.woff') format('woff2 supports variations'),
+            url('./fonts/Inter-Variable.woff') format('woff2-variations');  
+      font-weight: 400 410 715 785;
 }
