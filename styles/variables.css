@@ -24,8 +24,8 @@
   --animation-button: rgba(255, 255, 255, 1);
   --gif-bg-filter: rgb(209, 135, 178);
   /* Шрифты */
-  --ps2p-font-family: "Press Start 2P", sans-serif;
-  --iv-font-family: "Inter-Variable", sans-serif;
+  --accent-font: "Press Start 2P", sans-serif;
+  --main-font: "Inter-Variable", sans-serif;
   /* Размер текста */
   --font-size-text: 18px;
   --font-size-heading: 18px;
@@ -49,11 +49,11 @@
   --gap-xl: 30px;
   --gap--xxl: 50px;
   /*Фильтры*/
-  --filter-cat: hue-rotate(-30deg) brightness(120%) saturate(150%);
-  --filter-rabbit: blur(4px);
-  --filter-flower: opacity(0.7);
-  --filter-love: drop-shadow(5px 30px 1px rgba(0, 0, 0, 0.8));
-  --filter-sun: saturate(158%);
-  --filter-cat-gif: sepia(0.6);
-  --filter-family: brightness(90%);
+  --filter-hue-rotate: hue-rotate(-30deg) brightness(120%) saturate(150%);
+  --filter-blur: blur(4px);
+  --filter-opacity: opacity(0.7);
+  --filter-drop-shadow: drop-shadow(5px 30px 1px rgba(0, 0, 0, 0.8));
+  --filter-saturate: saturate(158%);
+  --filter-sepia: sepia(0.6);
+  --filter-brightness: brightness(90%);
 }
